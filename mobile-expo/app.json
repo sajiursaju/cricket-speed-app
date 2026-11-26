@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CreaseRadar",
+    "slug": "creaseradar-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "CreaseRadar needs camera access to measure bowling speed from the umpire crease.",
+          "enableCodeScanner": false
+        }
+      ],
+      "expo-asset"
+    ],
+    "android": {
+      "package": "com.creaseradar.app",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.creaseradar.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "CreaseRadar needs camera access to measure bowling speed from the umpire crease."
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "46247d52-5dc6-4a67-994a-29cfb226ee19"
+      }
+    }
+  }
+}
