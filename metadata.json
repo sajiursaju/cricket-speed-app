@@ -1,0 +1,6 @@
+{
+  "name": "CreaseRadar",
+  "description": "Local cricket live scoring, multi-tier tournament administration, and umpire-perspective camera bowling speed tracker with React Native & Expo architecture.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

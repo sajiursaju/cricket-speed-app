@@ -13,7 +13,16 @@
           "enableCodeScanner": false
         }
       ],
-      "expo-asset"
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 24,
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 34
+          }
+        }
+      ]
     ],
     "android": {
       "package": "com.creaseradar.app",
